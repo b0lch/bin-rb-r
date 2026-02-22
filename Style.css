@@ -1,5 +1,5 @@
 body {
-    /*background: linear-gradient(135deg, #489518, #d5ff74);*/
+    /*Alte Farben: background: linear-gradient(135deg, #489518, #d5ff74);*/
     height: 100vh; 
     text-align: center;
     background: linear-gradient(135deg, #ffffff, #000000);
@@ -112,4 +112,5 @@ h1,p,.convertBtn, .input-group label {
     border: 1px solid rgba(255,255,255,0.3);
     font-size: 16px;
     cursor: pointer;
+
 }
