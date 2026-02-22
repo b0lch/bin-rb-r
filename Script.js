@@ -9,10 +9,13 @@ function asciiToBinary(str) {
 }
 
 button.addEventListener('click', () => {
-    const text = input.value;
-    if(text.trim() === "") {
+    const text = input.value.trim();
+    if(text === "") {
         output.textContent = "Bitte Text eingeben!";
+    } else if (/^\d+$/.test(text)) {
+    output.textContent = "Ungültige Eingabe!";
     } else {
         output.textContent = asciiToBinary(text);
     }
+
 });
